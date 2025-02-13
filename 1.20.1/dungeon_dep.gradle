@@ -1,0 +1,9 @@
+repositories {
+    flatDir { dirs 'C:/MC Mods/dungeon_realm/build/libs' } 
+    flatDir { dirs 'libs' }
+    flatDir { dirs 'D:/flatdir' }	
+}
+
+dependencies {
+    implementation fg.deobf("blank:Dungeon-Realm-${minecraft_version}:${dungeon_realm_version}")
+}
