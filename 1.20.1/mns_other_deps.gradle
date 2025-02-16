@@ -1,0 +1,9 @@
+repositories {
+    flatDir { dirs 'C:/MC Mods/the_harvest/build/libs' } 
+    flatDir { dirs 'libs' }
+    flatDir { dirs 'D:/flatdir' }	
+}
+
+dependencies {
+    implementation fg.deobf("blank:The-Harvest-${minecraft_version}:${the_harvest_version}")
+}
