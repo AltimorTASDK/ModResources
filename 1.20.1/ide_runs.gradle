@@ -1,7 +1,7 @@
 
 minecraft {
 
-    mappings channel: "${mapping_channel}", version: "${mapping_version}-${minecraft_version}"
+    mappings channel: "${mapping_channel}".toString(), version: "${mapping_version}-${minecraft_version}".toString()
 
     runs {
         client {
